@@ -1,0 +1,74 @@
+<!-- 只负责引入js和css，不负责逻辑 -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title> Spine 模型</title>
+
+    <!-- 字体预加载 -->
+    <link rel="preload" href="lib/AlimamaFangYuanTiVF-Thin-2.ttf" as="font" type="font/ttf" crossorigin>
+
+    <!-- CSS样式 -->
+    <link rel="stylesheet" href="css/style.css?v=3">
+    <link rel="stylesheet" href="css/settings-new.css?v=3">
+
+    <!-- 第三方依赖库 -->
+    <!-- 先加载spine-core，再加载pixi，最后加载spine-pixi -->
+    <script src="lib/spine-core.min.js"></script>
+    <script src="lib/pixi.min.js"></script>
+    <script src="lib/spine-pixi-v8.min.js"></script>
+  </head>
+
+  <body>
+    <!-- 基础UI元素 -->
+    <div id="loading">正在加载模型和依赖...</div>
+    <div id="info">初始化中...</div>
+
+    <!-- API接口 -->
+    <script src="js/api/wallpaperEngineAPI.js"></script>
+
+    <!-- 工具类 -->
+    <script src="js/utils/spineLoader.js"></script>
+    <script src="js/utils/singleModelTransition.js"></script>
+    <script src="js/utils/memoryManager.js"></script>
+    <script src="js/utils/debug.js"></script>
+
+    <!-- UI界面 -->
+    <script src="js/ui/wallpaperControl.js"></script>
+
+    <!-- 设置界面模块 - 按依赖顺序加载 -->
+    <script src="js/ui/SettingsCore.js"></script>
+    <script src="js/ui/SettingsControls.js"></script>
+    <script src="js/ui/SettingsUI.js"></script>
+    <script src="js/ui/SettingsApplier.js"></script>
+    <script src="js/ui/SettingsApplierExtended.js"></script>
+    <script src="js/ui/SettingsTabManager.js"></script>
+    <script src="js/ui/settingsControl.js"></script>
+
+    <!-- 管理器模块 - 在核心应用之前加载 -->
+    <script src="js/managers/renderManager.js"></script>
+    <script src="js/managers/modelManager.js"></script>
+    <script src="js/managers/moduleManager.js"></script>
+    <script src="js/managers/frameRateManager.js"></script>
+
+    <!-- 核心应用 -->
+    <script src="js/core/app.js"></script>
+    <script src="js/core/main.js"></script>
+
+    <!-- 功能特性 -->
+    <script src="js/features/backgroundTracking.js"></script>
+    <script src="js/features/eyeTracking.js"></script>
+    <script src="js/features/bgmControl.js"></script>
+    <script src="js/features/animationControl.js"></script>
+    <script src="js/features/idleAnimationSpeedControl.js"></script>
+
+    <!-- 交互控制 -->
+    <script src="js/controls/headPatControl.js"></script>
+
+    <!-- 对话系统 -->
+    <script src="js/dialogue/textDisplayManager.js"></script>
+    <script src="js/dialogue/dialogueManager.js"></script>
+    <script src="js/dialogue/dialogueTriggerControl.js"></script>
+
+  </body>
+</html>

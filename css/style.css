@@ -1,0 +1,132 @@
+/* 水宫子 Spine 模型查看器样式 */
+
+/* 自定义字体定义 */
+@font-face {
+  font-family: 'AlimamaFangYuan';
+  src: url('../lib/AlimamaFangYuanTiVF-Thin-2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #2c3e50;
+  font-family: 'AlimamaFangYuan', 'Microsoft YaHei', Arial, sans-serif;
+  color: white;
+}
+
+#loading {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  z-index: 1000;
+  display: none; /* 默认隐藏 */
+}
+
+#info {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 4px;
+  max-width: 80%;
+  text-align: center;
+  z-index: 1000;
+  display: none; /* 默认隐藏 */
+}
+
+.console {
+  position: absolute;
+  bottom: 50px;
+  left: 10px;
+  width: 80%;
+  max-height: 200px;
+  overflow-y: auto;
+  color: #ccc;
+  font-family: monospace;
+  background-color: rgba(0,0,0,0.7);
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 12px;
+  display: block;
+}
+
+.console p {
+  margin: 2px 0;
+}
+
+.error {
+  color: #ff5252;
+}
+
+.success {
+  color: #4caf50;
+}
+
+.warning {
+  color: #ffc107;
+}
+
+#controls {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  font-family: 'AlimamaFangYuan', 'Microsoft YaHei', Arial, sans-serif;
+  font-size: 14px;
+  background-color: rgba(0,0,0,0.5);
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 2px;
+  font-family: 'AlimamaFangYuan', 'Microsoft YaHei', Arial, sans-serif;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#folderContent {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  width: 300px;
+  max-height: 300px;
+  overflow-y: auto;
+  color: #fff;
+  font-family: monospace;
+  background-color: rgba(0,0,0,0.7);
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  display: none;
+}
+
+#folderContent li {
+  cursor: pointer;
+  margin: 2px 0;
+  padding: 2px 5px;
+}
+
+#folderContent li:hover {
+  background-color: rgba(255,255,255,0.1);
+}

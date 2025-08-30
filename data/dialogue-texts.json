@@ -1,0 +1,110 @@
+{
+  "MemorialLobby_1": {
+    "segments": [
+      {
+        "audio": "MemorialLobby_1_1.ogg",
+        "text": {
+          "chinese": "真是舒爽的风啊。果然，莫名觉得心旷神怡呢。",
+          "japanese": "良い風だ。やはり、心なしか涼やかに感じられる。",
+          "english": "What a refreshing wind. Indeed, it feels somehow cool and pleasant."
+        }
+      },
+      {
+        "audio": "MemorialLobby_1_2.ogg",
+        "text": {
+          "chinese": "没有碍事的人打扰……此刻的世界只属于我们。",
+          "japanese": "邪魔するものはなく……この世界は私たちだけのものだ。",
+          "english": "Nothing to disturb us... this world belongs only to us."
+        }
+      }
+    ]
+  },
+  "MemorialLobby_2": {
+    "segments": [
+      {
+        "audio": "MemorialLobby_2_1.ogg",
+        "text": {
+          "chinese": "副驾驶座的风景可还称心？",
+          "japanese": "助手席からの眺めは美しいかな？",
+          "english": "How do you find the view from the passenger seat?"
+        }
+      },
+      {
+        "audio": "MemorialLobby_2_2.ogg",
+        "text": {
+          "chinese": "你这样的表情……是惊叹于窗外景致？还是说……没料到我会邀你同行？",
+          "japanese": "その表情は……景色に驚いているのかい？それとも……私の誘いが意外だったのかな？",
+          "english": "That expression of yours... are you amazed by the scenery? Or perhaps... you didn't expect me to invite you along?"
+        }
+      }
+    ]
+  },
+  "MemorialLobby_3": {
+    "segments": [
+      {
+        "audio": "MemorialLobby_3_1.ogg",
+        "text": {
+          "chinese": "无论怎么想都无妨，能看到你这般神情我已经心满意足了。",
+          "japanese": "どちらにせよ、その顔を拝めただけで満足だ。",
+          "english": "Either way, just being able to see that expression is enough to satisfy me."
+        }
+      },
+      {
+        "audio": "MemorialLobby_3_2.ogg",
+        "text": {
+          "chinese": "看来这番邀约确实值得呢。若非要追问缘由，反倒让我为难了……不过是随心所欲罢了。",
+          "japanese": "こうして誘った甲斐があったというものだね。大それた理由を求められても困ってしまうな。気の向くままに……それだけのことさ。",
+          "english": "It seems this invitation was indeed worthwhile. If you ask for some grand reason, I'd be at a loss... I simply followed my whims, that's all."
+        }
+      }
+    ]
+  },
+  "MemorialLobby_4": {
+    "segments": [
+      {
+        "audio": "MemorialLobby_4_1.ogg",
+        "text": {
+          "chinese": "该称这叫作什么呢……",
+          "japanese": "こういうのを、何と言ったかね……",
+          "english": "What would you call something like this..."
+        }
+      },
+      {
+        "audio": "MemorialLobby_4_2.ogg",
+        "text": {
+          "chinese": "嗯……私奔吗？",
+          "japanese": "ふむ……逃避行？",
+          "english": "Hmm... an elopement, perhaps?"
+        }
+      }
+    ]
+  },
+  "MemorialLobby_5": {
+    "segments": [
+      {
+        "audio": "MemorialLobby_5_1.ogg",
+        "text": {
+          "chinese": "呵呵……玩笑罢了。",
+          "japanese": "ふふ……冗談さ。",
+          "english": "Hehe... just kidding."
+        }
+      },
+      {
+        "audio": "MemorialLobby_5_2.ogg",
+        "text": {
+          "chinese": "不过在那之前......",
+          "japanese": "けれど、まだしばらくは……そうだな。",
+          "english": "But until then... let's see."
+        }
+      },
+      {
+        "audio": "MemorialLobby_5_3.ogg",
+        "text": {
+          "chinese": "就请容我继续这场小小的'游戏'吧……至少，在送你回去之前。",
+          "japanese": "君を送り返すまでは、この「戯れ」に付き合ってもらうとしようか。",
+          "english": "Please indulge me in this little 'game'... at least until I take you back."
+        }
+      }
+    ]
+  }
+}
